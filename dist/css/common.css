@@ -1,0 +1,58 @@
+/*******************
+  这里是公共代码部分
+*******************/
+
+/*重置代码*/
+*{margin: 0;padding: 0}
+a{text-decoration: none;color: white}
+ul,li{list-style: none}
+body{width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-family:"Microsoft YaHei UI";
+}
+/*html { overflow: hidden; }*/
+
+/*H5标签兼容*/
+header,section,footer{display: block}
+
+/*左右浮动*/
+.fle{float: left}
+.fri{float: right}
+
+/*字体颜色*/
+.fff{color: #fff}
+.f00{color: #000}
+.fbl{color: #0000FF}
+.fre{color: #f51024
+}
+.fpu{color: #9f449b}
+
+/*字体大小*/
+.fo1{font-size: 1vw}
+.fo2{font-size: 2vw}
+.fo3{font-size: 3vw}
+.fo4{font-size: 4vw}
+.fo7{font-size: 7vw}
+
+
+/*字体居中*/
+.cent{text-align: center}
+
+/*section*/
+section{
+    width: 100%;
+    height: 50vw;
+    background-size: 100%;
+    overflow: hidden;
+}
+section>h2{
+    margin: 3vw 0;
+}
+section>h2:before{
+    content: url("/images/t-left.png");
+}
+section>h2:after{
+    content: url("/images/t-right.png");
+}
+
